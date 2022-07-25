@@ -1,5 +1,9 @@
 # GIS API
 
+## TL;DR
+
+Install the required node packages with `npm i` then:
+
 ```sh
 # From this folder
 cd gis-api
