@@ -4,7 +4,7 @@ import helmet from "helmet";
 import cors from 'cors';
 // Our imports
 import { generateRandomCoordinates } from'./routes/coordinates.js';
-import { boundingBoxCoordinates } from './constants/defaults.js';
+import { outlineCoordinates } from './constants/cairns-geojson';
 import { getBoundingBox } from './utilities/gis-helpers.js';
 // Run this first after imports.
 config();
@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
       data: {
         boundingBox: boundingBox,
         randomPoints: randomPoints,
-        mapOutline: boundingBoxCoordinates
+        mapOutline: outlineCoordinates
       }
     }
 

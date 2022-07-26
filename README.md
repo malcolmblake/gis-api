@@ -22,7 +22,6 @@ It uses `mapbox-gl` and `chancejs` to generate coordinate values within the rang
 
 The reference data is static within the API but was initially generated from [geojson.io](https://geojson.io/#map=12/-16.9323/145.7062).
 
-
 ## Links
 
 - [chancejs.com](https://chancejs.com/)
